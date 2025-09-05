@@ -1,0 +1,15 @@
+---
+layout: default
+---
+    <h1 class="header">{{ page.title }}</h1>
+	{% for image in site.static_files %}
+		{% if image.path contains page.image_path %}
+			<div class="responsive">
+			  <div class="gallery">
+				<a class="gallery_thumb" href="{{ site.baseurl }}{{ image.path }}">
+				  <img src="{{ site.baseurl }}{{ image.path }}" alt="" width="600" height="400">
+				</a>
+			  </div>
+			</div>
+		{% endif %}
+	{% endfor %}

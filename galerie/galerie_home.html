@@ -1,0 +1,44 @@
+---
+title: Galerie
+layout: default
+galerien:
+    - name: 1. Warhammer Fantasy Turnier 2013
+      link: /galerie/fantasy_2013.html
+      titel_bild: /assets/images/galerien/fantasy_2013/image2.jpg
+
+    - name: 14. Bohnlander Warhammer 40k Turnier
+      link: /galerie/14_bohni_40k.html
+      titel_bild: /assets/images/galerien/14_bohni_40k/IMG_6006.jpg
+
+    - name: 3. Zollern Warhammer 40k Turnier
+      link: /galerie/3_zollern_40k.html
+      titel_bild: /assets/images/galerien/3_zollern_40k/IMG_6525.jpg
+
+    - name: Balthasar Gelt Pokal 2024
+      link: /galerie/balthasar_gelt_2024.html
+      titel_bild: /assets/images/galerien/balthasar_gelt_2024/001.jpg
+
+    - name: Dingstown
+      link: /galerie/dingstown.html
+      titel_bild: /assets/images/galerien/dingstown/m_009.jpg
+
+    - name: Ghost Archipelago
+      link: /galerie/ghost_archipelago.html
+      titel_bild: /assets/images/galerien/ghost_archipelago/01_ThePlinth.jpg
+
+    - name: Modelle
+      link: /galerie/modelle.html
+      titel_bild: /assets/images/galerien/modelle/m_013.jpg
+---
+
+	{% for galerie in page.galerien %}
+		<div class="responsive">
+			<div class="gallery">
+				<a class="gallery_thumb" href="{{ site.baseurl }}{{ galerie.link }}">
+					<img src="{{ site.baseurl }}{{ galerie.titel_bild }}" alt="" width="600" height="400">
+					<div class="desc">{{ galerie.name }}</div>
+				</a>
+			</div>
+		</div>
+	{% endfor %}
+	

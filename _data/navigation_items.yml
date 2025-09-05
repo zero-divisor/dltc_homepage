@@ -1,0 +1,20 @@
+- name: Start
+  link: /index.html
+
+- name: Über Uns
+  link: /ueber_uns.html
+
+- name: News
+  link: /news.html
+
+- name: Forum
+  link: https://dark-legion-tabletop-club.de/forum/index.php
+
+- name: Galerie
+  link: /galerie/galerie_home.html
+
+- name: Kontakt
+  link: mailto:info@dlttc.de
+
+- name: Impressum
+  link: /impressum.html

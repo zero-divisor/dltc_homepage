@@ -1,0 +1,48 @@
+.banner-image {
+	max-width: 90vw;
+}
+
+.frontpage-image {
+	max-height: 50vh;
+	max-width: 90vw;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #30303090;
+  margin: auto;
+  width: fit-content;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #fff8c1;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  margin: 1vh 1vw;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+  .navbar a {
+    float: none;
+    width: 98vw;
+  }
+  
+  .navbar {
+	  width:100%;
+  }
+}

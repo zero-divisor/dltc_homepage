@@ -1,0 +1,46 @@
+$backgroundColor: #181818;
+$bodyColor: #fff8c1;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	background-image: url("/assets/images/background.png");
+	background-position: center;
+	background-size: cover;
+}
+
+body {
+  color: $bodyColor;
+  font-family: $bodyFont;
+  margin: 0;
+}
+
+.header {
+  padding: 1em;
+  text-align: center;
+  color: $bodyColor;
+}
+
+/* unvisited link */
+a:link {
+  color: lightblue;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: $bodyColor;
+}

@@ -1,0 +1,84 @@
+$fontColor: #fff8c1;
+
+div.gallery {
+  border: 1px solid #333;
+}
+
+div.gallery:hover {
+  border: 1px solid $fontColor;
+}
+
+div.gallery img {
+  object-fit: cover;
+  display: block;
+  aspect-ratio: 4 / 3;
+  height: 100%;
+  width: 100%;
+}
+
+.responsive-image {
+  display: block;
+  width: 80%;
+  margin: auto;
+  max-width: 60em
+}
+
+a.gallery_thumb {
+	text-decoration: none;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: $fontColor;
+}
+
+.responsive {
+  padding: 1em;
+  float: left;
+  width: 24.99999%;
+}
+
+.two-col-container {
+  max-width: 90em;
+  margin: auto;
+}
+
+.responsive-2col {
+  padding: 1em;
+  float: left;
+  width: 49.99999%;
+}
+
+.centered-text {
+  padding: 1em;
+  max-width: 60em;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  .responsive-2col {
+    width: 100%;
+  }
+  .two-col-container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 100%;
+  }
+}
+/*Braucht man sonst funktioniert sticky Navigationsleiste nicht*/
+body:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
