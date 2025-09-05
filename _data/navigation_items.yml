@@ -13,10 +13,8 @@
 - name: Galerie
   link: /dltc_homepage/galerie/galerie_home.html
 
-- name: Kontakt
-  link: mailto:info@dlttc.de
-
 - name: Impressum
   link: /dltc_homepage/impressum.html
+
 
 
