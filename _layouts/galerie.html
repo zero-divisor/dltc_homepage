@@ -6,11 +6,12 @@ layout: default
 		{% if image.path contains page.image_path %}
 			<div class="responsive">
 			  <div class="gallery">
-				<a class="gallery_thumb" href="/{{ site.baseurl }}{{ image.path }}">
+				<a class="gallery_thumb" href="/{{ site.baseurl }}{{ image.path }}" target="_blank">
 				  <img src="/{{ site.baseurl }}{{ image.path }}" alt="" width="600" height="400">
 				</a>
 			  </div>
 			</div>
 		{% endif %}
 	{% endfor %}
+
 
