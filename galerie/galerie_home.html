@@ -34,7 +34,7 @@ galerien:
 	{% for galerie in page.galerien %}
 		<div class="responsive">
 			<div class="gallery">
-				<a class="gallery_thumb" href="{{ site.baseurl }}{{ galerie.link }}">
+				<a class="gallery_thumb" href="/{{ site.baseurl }}{{ galerie.link }}">
 					<img src="/{{ site.baseurl }}{{ galerie.titel_bild }}" alt="" width="600" height="400">
 					<div class="desc">{{ galerie.name }}</div>
 				</a>
@@ -43,3 +43,4 @@ galerien:
 	{% endfor %}
 
 	
+
