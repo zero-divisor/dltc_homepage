@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
   </head>
   <body>
 	<div class="header">
-      <img class="banner-image" src={{"/assets/images/frontpage/banner.png"  | relative_url }}>
+      <img class="banner-image" src={{"assets/images/frontpage/banner.png"  | relative_url }}>
     </div>
 	<div class="navbar">
 	  {% for item in site.data.navigation_items %}
@@ -19,7 +19,7 @@
 	  {% endfor %}
     </div>
 	<div class="header">
-      <img class="frontpage-image" src={{"/assets/images/frontpage/frontpage_image.jpg"  | relative_url }}>
+      <img class="frontpage-image" src={{"assets/images/frontpage/frontpage_image.jpg"  | relative_url }}>
     </div>
   </body>
 </html>
