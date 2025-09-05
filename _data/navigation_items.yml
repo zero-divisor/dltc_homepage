@@ -2,20 +2,21 @@
   link: /dltc_homepage/index.html
 
 - name: Über Uns
-  link: dltc_homepage/ueber_uns.html
+  link: /dltc_homepage/ueber_uns.html
 
 - name: News
-  link: dltc_homepage/news.html
+  link: /dltc_homepage/news.html
 
 - name: Forum
   link: https://dark-legion-tabletop-club.de/forum/index.php
 
 - name: Galerie
-  link: dltc_homepage/galerie/galerie_home.html
+  link: /dltc_homepage/galerie/galerie_home.html
 
 - name: Kontakt
   link: mailto:info@dlttc.de
 
 - name: Impressum
-  link: dltc_homepage/impressum.html
+  link: /dltc_homepage/impressum.html
+
 
