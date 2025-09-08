@@ -45,3 +45,12 @@ a:hover {
 a:active {
   color: $bodyColor;
 }
+
+/*Braucht man sonst funktioniert sticky Navigationsleiste nicht*/
+body:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
